@@ -16,6 +16,7 @@ dockerLocalTime=/etc/localtime
 
 hostLocalTime=/etc/localtime
 
+docker builder prune
 docker build -t ${imageName}:${tag} .
 docker run -d -p ${hostPort}:${dockerPort} -v ${hostLogPath}:${dockerLogPath}  -v ${hostTimeZoneFile}:${dockerTimeZoneFile} -v ${hostLocalTime}:${dockerLocalTime}  ${imageName}:${tag}
 
