@@ -137,7 +137,7 @@
                         <!--<exclude>**/*.xml</exclude>-->
                         <exclude>**/*.yml</exclude>
                         <exclude>static/**</exclude>
-                        <exclude>templates/**</exclude>
+                        <!--<exclude>templates/**</exclude>-->
                         <exclude>**/*.xlsx</exclude>
                     </excludes>
                 </configuration>
