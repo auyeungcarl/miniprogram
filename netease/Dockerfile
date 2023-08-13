@@ -5,7 +5,7 @@ MAINTAINER carl "838644308@qq.com"
 VOLUME /tmp
 # 拷贝jar
 RUN mkdir appsystems
-ADD *.jar appsystems/apps/
+ADD target/*.jar appsystems/apps/
 ADD *.yml appsystems/config/
 
 # 设置暴露的端口号
