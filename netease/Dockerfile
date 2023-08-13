@@ -6,7 +6,7 @@ VOLUME /tmp
 # 拷贝jar
 RUN mkdir appsystems
 ADD target/*.jar appsystems/apps/
-ADD /home/ouyc/java/netease/*.yml appsystems/config/
+ADD src/main/resources/*.yml appsystems/config/
 
 # 设置暴露的端口号
 #EXPOSE 8082
