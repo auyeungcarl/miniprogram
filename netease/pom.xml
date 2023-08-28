@@ -67,17 +67,6 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.29</version>
         </dependency>
-
-        <!--<dependency>-->
-        <!--<groupId>org.springframework.boot</groupId>-->
-        <!--<artifactId>spring-boot-starter-security</artifactId>-->
-        <!--</dependency>-->
-        <!--&lt;!&ndash;logstash日志收集插件&ndash;&gt;-->
-        <!--<dependency>-->
-        <!--<groupId>net.logstash.logback</groupId>-->
-        <!--<artifactId>logstash-logback-encoder</artifactId>-->
-        <!--<version>4.8</version>-->
-        <!--</dependency>-->
     </dependencies>
 
     <build>
@@ -87,46 +76,9 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.3.RELEASE</version>
-                <!--<configuration>-->
-                    <!--<layout>ZIP</layout>-->
-                    <!--<includes>-->
-                        <!--<include>-->
-                            <!--<groupId>non-exists</groupId>-->
-                            <!--<artifactId>non-exists</artifactId>-->
-                        <!--</include>-->
-                    <!--</includes>-->
-                <!--</configuration>-->
-                <!--<executions>-->
-                    <!--<execution>-->
-                        <!--<goals>-->
-                            <!--<goal>repackage</goal>-->
-                        <!--</goals>-->
-                        <!--<configuration>-->
-                            <!--<classifier>classes</classifier>-->
-                            <!--<attach>false</attach>-->
-                        <!--</configuration>-->
-                    <!--</execution>-->
-                <!--</executions>-->
+
             </plugin>
-            <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-dependency-plugin</artifactId>-->
-                <!--<executions>-->
-                    <!--<execution>-->
-                        <!--<id>copy-dependencies</id>-->
-                        <!--<phase>package</phase>-->
-                        <!--<goals>-->
-                            <!--<goal>copy-dependencies</goal>-->
-                        <!--</goals>-->
-                        <!--<configuration>-->
-                            <!--<outputDirectory>target/lib</outputDirectory>-->
-                            <!--<excludeTransitive>false</excludeTransitive>-->
-                            <!--<stripVersion>false</stripVersion>-->
-                            <!--<includeScope>runtime</includeScope>-->
-                        <!--</configuration>-->
-                    <!--</execution>-->
-                <!--</executions>-->
-            <!--</plugin>-->
+
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
